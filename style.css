@@ -1,0 +1,86 @@
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+u{
+font-size: 60px;
+color:white;
+text-align: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+background-image: linear-gradient(blue,green);
+}
+button{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    padding: 1px;
+    width: 100px;
+    height: 100px;
+    background: #999;
+font-weight: bolder;
+font-size: 400%; }
+button:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.container{max-width: 500px;
+    background-color: black;
+    border: 10px;
+    border-radius: 20px;
+    border-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#display2{
+    width: 90%;
+    height:70px;
+  
+    margin-top: 0px;
+   
+    margin-right: 20px;
+   
+    margin-left: 20px;
+   
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 400%;
+    background-color: rgb(2, 47, 2);
+   ;
+text-align: right;
+color: white;
+    border: 1px solid black;
+
+}
+
+#display{
+    width: 90%;
+    height:50px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 200%;
+    background-color: rgb(2, 47, 2);
+   ;
+text-align: right;
+color: white;
+    border: 1px solid black;
+    margin-top: 25px;
+   
+}
+#keys{
+    margin: 14px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+#CE{
+    width: 96%;
+
+}
